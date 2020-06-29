@@ -40,11 +40,11 @@ input.onButtonPressed(Button.B, function () {
 let pisteet = 0
 let vihjeet: string[] = []
 let erhe = false
+let nopeus = 1400
 basic.showIcon(IconNames.Heart)
 basic.pause(200)
 basic.clearScreen()
 while (!erhe) {
-    let nopeus = 1500
     let k = kumpi()
     vihjeet.push(k)
     vihjaa(k)
