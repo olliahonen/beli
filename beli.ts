@@ -53,6 +53,7 @@ while (!erhe) {
     basic.pause(0.2 * nopeus)
     nopeus = nopeus * 0.95
 }
+vihjeet = []
 while (true) {
     basic.showString(pisteet + '!')
 }
